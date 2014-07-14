@@ -1,0 +1,32 @@
+.filtros{
+	width: 150px;
+	height: 70px;
+	border: 1px solid #DDD;
+}
+
+#listaFiltros .button {
+  background: none repeat scroll 0 0 #222222;
+  border-radius: 5px 5px 5px 5px;
+  color: #898989;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  height: 36px;
+  line-height: 36px;
+  list-style-type: none;
+  margin-bottom: 4%;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 100px%;
+  margin: 15px;
+}
+
+#listaSubcategorias .subcategorias {
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	border: 1px solid #DDD;
+	margin: 15px;
+}

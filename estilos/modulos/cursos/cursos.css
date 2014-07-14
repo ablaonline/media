@@ -1,0 +1,161 @@
+/* 
+    Document   : cursos
+    Created on : Jan 21, 2013, 2:20:33 PM
+    Author     : CCCA\pavelez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.contenedorActividades{
+    width: 48%;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #DDD;
+}
+
+.contenedorActividades{
+    width: 48%;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #DDD;
+}
+
+.contenedorAvisos{
+    width: 48%;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #DDD;
+}
+
+
+/* Clases para actividades*/
+.contenedorGrisActividades {
+    background-color: #DDDDDD;
+    border-bottom: 1px dotted #BDBDBD;
+    border-right: 1px dotted #BDBDBD;
+    border-top: 1px dotted #BDBDBD;
+    height: 38px;
+    margin-bottom: 7px;
+    margin-left: 54px;
+    padding: 1px 1px 2px 3px;
+    width: 85%;
+}
+
+
+.botonesListaActividades{
+    height: 23px;
+    float: right;
+    width: 100%;
+}
+
+.botonesInternosActividades{
+    height: 23px;
+    float: right;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.nivoSlider {
+    position:relative;
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.slider-wrapper {
+  border: 2px solid;
+  float: right !important;
+  height: 95px !important;
+  margin-right: 10px !important;
+  margin-top: 48px;
+  overflow: hidden;
+  width: 500px !important;
+}
+
+
+
+.recursoAudioActividad{
+    margin-left: 100px !important;
+}
+
+
+.miniaturaLista32px {
+  background-color: #FFFFFF;
+  border: 2px solid #BDBDBD;
+  box-shadow: -5px 5px 7px #6E6E6E;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  padding: 9px;
+  position: relative;
+}
+
+.miniaturaImagenUsuarios {
+  background-color: #FFFFFF;
+  border: 1px dotted #BDBDBD;
+  display: block;
+  float: right;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: -18px;
+  padding: 2px;
+  position: relative;
+  width: 35px;
+}
+
+.explicacionCalificacion{
+    float: left;
+    width: 270px;
+    height: 220px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+.explicacionCalificacionGeneral{
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+    width: 300px;
+    height: 300px;   
+}
+
+.miniaturaImagenUsuariosNormal {
+  background-color: #FFFFFF;
+  border: 1px dotted #BDBDBD;
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-top: -18px;
+  padding: 2px;
+  position: relative;
+}
+
+
+.imgIndicadorNota{
+    float: right;
+    margin-right: 3em;
+    margin-top: -14px;
+    margin-left: 5px;
+}
+
+
+.actividadVencida{
+    background-color: #FEE0E0 !important;
+    padding-bottom: 3px !important;
+}
+

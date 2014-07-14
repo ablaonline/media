@@ -1,0 +1,19 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+    $(".verRespuestaActividad").live("click", function(){
+        $("#indicadorEspera").css("display","block");
+        destino = "/ajax/activities/seeResponse";
+        var id = $(this).attr('idRespuesta');
+        $.ajax({
+            type:"POST",
+            url:destino,
+            data: "idRespuesta="+id,
+            dataType:"json",
+            success: procesaRespuesta
+        });                                    
+        return false;
+    });

@@ -1,0 +1,19 @@
+/* 
+    Document   : eventos
+    Created on : Mar 18, 2013, 2:55:31 PM
+    Author     : CCCA\pavelez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#eventsCalendar{
+    display: none;
+    width: 900px;
+    margin: 0 auto;   
+    
+}
+
